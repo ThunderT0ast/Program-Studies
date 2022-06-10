@@ -2,6 +2,10 @@
     overflow: hidden;
 }
 
+h1 {
+    color: #A09857
+}
+
 h4 {
     font-size: 26px;
     margin-bottom: 0;
@@ -9,6 +13,22 @@ h4 {
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #A09857;
+}
+
+.box-1 {
+    background-color: #262626;
+}
+
+.box-2 {
+    background-color: #262626;
+}
+
+.navbar {
+    background-color: #000;
+}
+
+.box {
+    background-color: #000;
 }
 
 .card-text {
