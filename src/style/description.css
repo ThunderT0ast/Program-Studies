@@ -8,6 +8,7 @@
     position: relative;
     margin: 10px auto;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .profile-card img {
@@ -19,6 +20,7 @@
     position: relative;
     padding: 15px;
     background-color: #FFF;
+    text-decoration: none;
 }
 
 .profile-card .profile-name {
@@ -30,33 +32,59 @@
     color: #C0B460;
     background-color: #262626;
     font-size: 17px;
+    text-decoration: none;
 }
 
 .profile-card .profile-name p {
     font-weight: 600;
     font-size: 13px;
     letter-spacing: 1.5px;
+    text-decoration: none;
 }
 
 .profile-card .profile-description {
     color: #BBB;
     font-size: 12px;
     padding: 10px;
+    text-decoration: none;
 }
 
 .profile-card .profile-overview {
     padding: 15px 0px;
+    text-decoration: none;
 }
 
 .profile-card .profile-overview p {
     font-size: 10px;
     font-weight: 600;
     color: #BBB;
+    text-decoration: none;
+}
+
+.profile-card a {
+    text-decoration: none;
+}
+
+.profile-card a:hover {
+    text-decoration: none;
+}
+
+.profile-card a:link {
+    text-decoration: none;
+}
+
+.profile-card a:visited {
+    text-decoration: none;
+}
+
+.profile-card a:active {
+    text-decoration: none;
 }
 
 .profile-card .profile-overview h4 {
     color: #262626;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .profile-card .profile-content::before {
@@ -69,6 +97,7 @@
     background-color: #FFF;
     z-index: 0;
     transform: skewY(3deg);
+    text-decoration: none;
 }
 
 .profile-card:hover img {
