@@ -1,3 +1,7 @@
+.container {
+    top: 150px;
+}
+
 .profile-card {
     max-width: 300px;
     max-height: 400px;
