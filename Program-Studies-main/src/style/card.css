@@ -1,0 +1,121 @@
+.card {
+    overflow: hidden;
+}
+
+h1 {
+    color: #A09857
+}
+
+h4 {
+    font-size: 26px;
+    margin-bottom: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #A09857;
+}
+
+.box-1 {
+    background-color: #262626;
+}
+
+.box-2 {
+    background-color: #262626;
+}
+
+.navbar {
+    background-color: #000;
+}
+
+.box {
+    background-color: #000;
+}
+
+.footer-box {
+    background-color: #000;
+}
+
+.footer-box-1 {
+    background-color: #262626;
+}
+
+.footer-box-2 {
+    background-color: #262626;
+}
+
+.footer {
+    background-color: #000;
+}
+
+.card-text {
+    color: #333;
+    text-justify: newspaper;
+}
+
+.list {
+    padding-left: 10px;
+    color: #BBB !important;
+}
+
+.image {
+    width: 100%;
+}
+
+@media (max-width:756px) {
+    .col-md-4 {
+        height: 300px;
+        overflow: hidden;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+
+/* Carousel dark indicators */
+
+
+/* Add an extra .carousel parent class to increase specifity
+   avoiding the use of !important flag. */
+
+.carousel .carousel-indicators li {
+    margin-top: 100px;
+    background-color: #fff;
+    background-color: rgba(70, 70, 70, .25);
+    height: 20px;
+    width: 50px;
+}
+
+.carousel .carousel-indicators .active {
+    background-color: #262626;
+    height: 20px;
+    width: 50px;
+}
+
+
+/* Only for beautify example */
+
+h1 {
+    margin: 60px auto;
+    text-align: center;
+}
+
+h1>small {
+    color: #999;
+}
+
+img {
+    width: 100%;
+}
+
+.carousel .carousel-caption {
+    color: #999;
+}
+
+.carousel-control-prev {
+    font-size: 136px;
+}
+
+.info {
+    background-color: #262626;
+    height: auto;
+}

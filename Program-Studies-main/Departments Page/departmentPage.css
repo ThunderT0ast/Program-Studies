@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Nevis Bold';
+    src: url('Nevis\ Bold.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Nevis Bold';
+}
+
