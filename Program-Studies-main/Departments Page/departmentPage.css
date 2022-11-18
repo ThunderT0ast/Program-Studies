@@ -7,3 +7,37 @@ body {
   font-family: 'Nevis Bold';
 }
 
+h1 {
+  text-align: center;
+  font-size: 70px;
+  margin-bottom: 0px;
+}
+
+#line {
+  background-color: #c0b460;
+  margin: auto;
+  width: 15%;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+
+}
+
+.grid-container {
+  display: grid;
+  gap: 50px 100px;
+  grid-template-columns: auto auto;
+  background-color: #c0b460;
+  padding: 30px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 40px;
+  font-size: 50px;
+  text-align: center;
+}
+
